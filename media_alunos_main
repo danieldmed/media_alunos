@@ -1,0 +1,16 @@
+package alunos;
+
+/**
+ *
+ * @author Admin
+ */
+public class main {
+    public static void main (String[]args) {
+        
+        Alunos aluno1 = new Alunos();
+        aluno1.nome = "Daniel";
+        
+        aluno1.exibirInformacoes();
+    }
+    
+}
